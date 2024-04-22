@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  margin-right: 8px;
+
+  box-shadow: var(--sec-box-shade);
+  border: none;
+  border-radius: 6px;
+  padding: 18px;
+
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.addBtn {
+  border: none;
+  border-radius: 6px;
+
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  width: 88px;
+  background-color: var(--main-color);
+  box-shadow: var(--sec-box-shade);
+}

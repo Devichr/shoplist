@@ -1,0 +1,30 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  padding: 16px 0;
+}
+
+.infoTotal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12;
+}
+
+.infoTotal p {
+  font-weight: bold;
+}
+
+.deleteAllBtn {
+  background-color: unset;
+  border: none;
+  padding: unset;
+
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
