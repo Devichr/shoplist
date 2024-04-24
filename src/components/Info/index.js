@@ -11,7 +11,7 @@ const Info = (props) => {
         <p>{`Total Item :${props.totalCounts}`} </p>
       </div>
       <div className="delete-all">
-        <button className={styles.deleteAllBtn} onClick={props}>
+        <button className={styles.deleteAllBtn} onClick={props.onClick}>
           Delete All
         </button>
       </div>
@@ -22,7 +22,7 @@ const Info = (props) => {
 Info.propTypes = {
   todosLength: PropTypes.number,
   totalCounts: PropTypes.func,
-  onDelete: PropTypes.func,
+  onClick: PropTypes.func,
 };
 
 export default Info;

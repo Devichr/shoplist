@@ -63,7 +63,7 @@ function App() {
         <Info
           todosLength={todos.length}
           totalCounts={getTotalCounts()}
-          onDelete={()=> setTodos([]) }
+          onClick={() => setTodos([])}
         />
 
         {todos.length > 0 ? (
